@@ -18,9 +18,13 @@
 
 ## 版本需求
 `numpy==2.3.3`
+
 `faiss-cpu==1.12.0`
+
 `sentence-transformers==5.1.1`
+
 `Flask==3.1.2`
+
 `Flask-RESTful==0.3.10`
 
 ## 进展说明
@@ -28,6 +32,7 @@
 模型还是用paraphrase-multilingual-MiniLM-L12-v2好点，500M总共
 然后发布的话，API-server.py只能发布在本地回环或者本地局域网，暂时无法暴露在公网，暴露在公网建议部署在云服务器上
 建议将这一套部署在云服务器以应对大规模访问和稳定性
+
 
 
 
